@@ -1,0 +1,11 @@
+sentence=input("Please enter a sentence ")
+
+print("You're sentence has", (len(sentence)), "letters ")
+print("You're sentence in higher case is", (sentence.upper()))
+print("You're sentence in lower case is", (sentence.lower()))
+print("You're sentence in swapped case is", (sentence.swapcase()))
+letter = int(input("What letter do you want to count to? "))
+print("The letter is ", (sentence[letter]))
+replace1=input("What word do you want to replace")
+replace2=input("What word do you want to replace it with")
+print(sentence.replace(replace1 , replace2))
